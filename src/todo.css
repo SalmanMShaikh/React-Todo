@@ -43,3 +43,7 @@
   }
 
 /* todo*/
+.strike{
+    text-decoration: line-through;
+}
+

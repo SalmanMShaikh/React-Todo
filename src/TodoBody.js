@@ -6,7 +6,7 @@ function TodoBody({info}) {
         <>
         {
            info.data.array?.map((value)=>{
-               return <Todo value={value}/>
+               return <Todo values={value} info={info}/>
            }) 
         }
         </>

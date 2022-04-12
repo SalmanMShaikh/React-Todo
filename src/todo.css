@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+  }
+  
+
+  /* todo Header*/
+  .todo__heading{
+    color: blue;
+    display:flex;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .todo__body{
+    display:flex;
+    justify-content: center;
+  }
+  
+  .input{
+    height: 1rem;
+    padding: 1rem;
+    margin-right: 10px;
+    border-radius: 10px;
+    border: 2px solid black;
+  }
+  
+  .input::placeholder{
+    color:red;
+    font-size: 1rem;
+  }
+  
+  .addToDo__button{
+    padding:5px;
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 5px;
+  }
+  
+  .addToDo__button:hover{
+    cursor:pointer;
+  }
+
+/* todo*/
